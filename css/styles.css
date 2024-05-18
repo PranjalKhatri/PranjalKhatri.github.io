@@ -273,17 +273,19 @@ header .breakingnews #date {
     /* width: 200px; */
 }
 
+.smallbanner {
+    background-image: url("../images/food.jpg");
+    height: 50%;
+    width: 200px;
+}
+
 .gnews .smallbanner:nth-child(2) {
     background-image: url("../images/satyanadela.jpg");
     background-size: 100% 100%;
 
 }
 
-.smallbanner {
-    background-image: url("../images/food.jpg");
-    height: 50%;
-    width: 200px;
-}
+
 
 .circleimage {
     border-radius: 50%;
