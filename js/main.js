@@ -98,9 +98,9 @@ function updateBanners(
     `shownews('${data[index].content}','${data[index].headline}','${data[index].author}','${formattedDate}')`
   );
   src_dat.innerHTML = `
-          <img src="../images/Pricing plans _ Freepik.jpg" class="circleimage icon">
+          <img src="./images/Pricing plans _ Freepik.jpg" class="circleimage icon">
           ${data[index].author}
-          <img src="../images/calendar.svg" alt="weather" class="icon">${formattedDate}
+          <img src="./images/calendar.svg" alt="weather" class="icon">${formattedDate}
         `;
 
   console.log(src_dat);
@@ -138,7 +138,7 @@ function updatelistnews(data, numarray = []) {
       <p>${data[numarray[i]].headline}</p>
       <br />
       <div class="date">
-       <img src="../images/calendar.svg" alt="weather" class="icon" />
+       <img src="./images/calendar.svg" alt="weather" class="icon" />
        ${formattedDate}
       </div>
     </a>
@@ -148,14 +148,14 @@ function updatelistnews(data, numarray = []) {
    <div class="listbannerelem">
             <a href="#">
           <img
-            src="../images/Union-home-minister-Amit-Shah.avif"
+            src="./images/Union-home-minister-Amit-Shah.avif"
             alt=""
             srcset=""
           />
           <p>Amit Shah to visit J&K to review security situation..</p>
           <br /><!-- Amit Shah to visit J&K to review security situation.. -->
           <div class="date">
-            <img src="../images/calendar.svg" alt="weather" class="icon" />
+            <img src="./images/calendar.svg" alt="weather" class="icon" />
             June 18, 2024
           </div>
           </a>
